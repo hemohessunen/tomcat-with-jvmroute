@@ -13,11 +13,10 @@ The tagnames correspond to the official Tomcat Docker image tagnames. E.g. jspaa
 
 # Usage
 
-'''
-docker run --env CATALINA_OPTS="-DtomcatJvmRoute=<tomcat id>" <image name>
-'''
+`docker run --env CATALINA_OPTS="-DtomcatJvmRoute=<tomcat id>" <image name>`
 
-E.g. '''docker run --env CATALINA_OPTS="-DtomcatJvmRoute=jvm2" <image name>'''
+
+E.g. `docker run --env CATALINA_OPTS="-DtomcatJvmRoute=jvm2" <image name>`
 
 The current implementation uses a default jvmRoute parameter value jvm1.
 
