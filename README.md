@@ -9,7 +9,7 @@ This image helps by extending the official Tomcat Docker images by setting the j
 
 # Versioning
 
-The tagnames correspond to the official Tomcat Docker image tagnames which are extended. E.g. jspaalan/tomcat-with-jvmroute:9.0 uses the tomcat:9.0 as base image.
+The tagnames correspond to the official Tomcat Docker image tagnames. E.g. jspaalan/tomcat-with-jvmroute:9.0 uses the tomcat:9.0 as base image.
 
 # Usage
 
